@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: rgb(142, 187, 224);
+}
+
+main{
+    background-color: rgb(165, 230, 250);
+    border-radius: 3rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.weatherDisplay{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    padding: 1rem 0;
+}
+
+li{
+    padding: 1rem 0;
+}
+
+a{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: rgb(58, 89, 226);
+}
+
+li > button {
+    margin-left: 1rem;
+}

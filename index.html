@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Weather App</h1>
+        <form>
+            <label for="location">Location</label>
+            <input type="text"  id="location">
+            <label for="home">Home?</label>
+            <input type="checkbox" id="home">
+            <button type="submit">Check Weather</button>
+        </form>
+        <div class="weatherDisplay">
+            <div>
+                <h3>Location:</h3>
+                <h3 id="locationDisplay"></h3>
+            </div>
+            <div>
+                <h3>Temperature:</h3>
+                <h3 id="tempDisplay"></h3>
+            </div>
+            <div>
+                <h3>Sky:</h3>
+                <h3 id="skyDisplay"></h3>
+            </div>
+            <div>
+                <h3>Wind Speed:</h3>
+                <h3 id="windDisplay"></h3>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h2>Saved Locations</h2>
+            <ul id="savedLocations">
+
+            </ul>
+        </div>
+    </main>
+
+</body>
+</html>
